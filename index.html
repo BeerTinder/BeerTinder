@@ -47,8 +47,9 @@
 <p class="info-text">The objective of BeerTinder is to find the perfect beer for the perfect you!<p>
 <h4 class="info-text">Features:<h4>
 <ol>
+<li class="info-text">It's highly recommended that you create a profile so that you have access to all the features and storage of your activities.</li>
+<li class="info-text">To create a new profile, click the "profile" button. You will be prompted to enter in a username (your email address) and a unique password. The email must be a valid email and passwords must be at least 4 characters and length. After you enter in the information it is very important that you click "Send Email Verification".</li>
 <li class="info-text">Once the screen is fully loaded, you will see a selection of randomized beers.</li>
-<li class="info-text">It's highly recommended that you "Create a Profile" so that you have access to all the features and storage of your activities.</li>
 <li class="info-text">For each beer selection you have the option to "Like" or "Dislike".</li>
 <li class="info-text">"Liking" a beer adds that beer to your history of liked beers.</li>
 <li class="info-text">Each beer will have an info option that will display relevant info about the beer that is currently being shown.</li>
@@ -98,7 +99,18 @@
                 <!-- Container for the demo -->
                 <div>
                     <div>
-                        <h5>Enter an email and password below and either sign in to an existing account or sign up</h5><br>
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Custom Modal Content Goes Here-->
+      <div class="modal-body">
+       <h5>Enter an email and password below and either sign in to an existing account or sign up</h5><br>
                         <input style="display:inline;width:auto;" type="text" id="email" name="email" placeholder="Email" /> &nbsp;&nbsp;&nbsp;
                         <input style="display:inline;width:auto;" type="password" id="password" name="password" placeholder="Password" />
                         <br/>
@@ -110,17 +122,6 @@
                         <button class="btn btn-outline-success my-2 my-sm-0" disabled id="quickstart-verify-email" name="verify-email">Send Email Verification</button><br>
                         &nbsp;&nbsp;&nbsp;<br>
                         <button class="btn btn-outline-success my-2 my-sm-0" id="quickstart-password-reset" name="verify-email">Send Password Reset Email</button>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <!--Custom Modal Content Goes Here-->
-      <div class="modal-body">
-       
       </div>
       <!-- Custom Modal Content Goes Above ^^^^^^ -->
       <div class="modal-footer">
@@ -137,11 +138,6 @@
 </nav>
 <!-- This is the HTML for the carousel-->
 <div id="carouselExampleIndicators" class="carousel slide">
-  <ol class="carousel-indicators" id="carousel-slide-buttons">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <img class="d-block img-fluid" src="https://i.pinimg.com/originals/d3/a3/76/d3a376bf640ec69367d87050596dafc4.jpg" alt="First slide">
@@ -170,7 +166,9 @@
         </div>
     </div>
 <!-- This button wil generate the google map API-->
+<div id="bottom-btn">
 <button type="button" id="btn-bottom-bitch" class="btn btn-primary">Find me Babe</button>
+<div>
 <!--Maps api should display here-->
 <div id="map"></div>
 <!--This is the footer HTML-->
