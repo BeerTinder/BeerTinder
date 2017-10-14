@@ -133,7 +133,7 @@ var longitude;
 
 
 //For loop creating all the carousel items for each beer (object) we have
-for (var i = 1; i < 11; i++) {
+for (var i = 1; i < 21; i++) {
     var out = $("<div id=aaaa class=carousel-item>")
         .append("<img class=d-block img-fluid src=" + beerObject[i].imageSource + ">")
         .append()
@@ -217,6 +217,7 @@ $(".btn.btn-primary.like-button").on("click", function() {
     $("#liked-beer-display").append(likedModal);
     //adding the current beer liked to the beersLiked array
     beersLiked.push(beerLiked);
+    console.log(beersLiked);
     // Add 1 to beerCounter everytime the user pushes like
     beerCounter++;
 
@@ -225,7 +226,6 @@ $(".btn.btn-primary.like-button").on("click", function() {
     database.ref().set({
         NumberOfBeers: beerCounter,
         nameOfBeers: beersLiked
-
     });
 
 });
@@ -445,6 +445,8 @@ function toggleSignIn() {
         // [END authwithemail]
     }
     document.getElementById('quickstart-sign-in').disabled = true;
+    $("#liked-beer-display").append(beersLiked);
+
 }
 /**
  * Handles the sign up button press.
@@ -576,4 +578,5 @@ function initApp() {
 }
 window.onload = function() {
     initApp();
+    // $("#liked-beer-display").append(beersLiked);
 };
