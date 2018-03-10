@@ -5,7 +5,7 @@ Project Title: BeerTinder
 Developers: Adam Kojak, Bill King, James Jannetti
 
 Project Description:
-BeerTinder is an app that connects the user to their ideal beer.  User will receive a shitload of random images of beer, one by one, with a brief description and tasting notes about that beer. The user will decide to ìswipeî right or left if they think the beer is good. If the user swipes right = ìgoodî then the user will be prompt of where the location of the beer is and cost.  The swiped right beers will be saved in the users profile. Users will also be able to search to for beer.
+BeerTinder is an app that connects the user to their ideal beer.  User will receive API/beer specific data of random images of beer, one by one, with a brief description and tasting notes about that beer. The user will decide to ‚Äúswipe‚Äù right or left if they think the beer is good. If the user swipes right = ‚Äúgood‚Äù then the user will be prompt of where the location of the beer is and cost.  The swiped right beers will be saved in the users profile. Users will also be able to search to for beer.
 Sketch of Final Product:
 
 
@@ -27,21 +27,21 @@ Sketch of Final Product:
 
 
  
-APIís to be Used:
-1.	BreweryDB API ñ This is our main API to retrieve beer details http://www.brewerydb.com/developers/docs
+API‚Äôs to be Used:
+1.	BreweryDB API ‚Äì This is our main API to retrieve beer details http://www.brewerydb.com/developers/docs
 
-2.	GoogleMaps API ñ This will be used to show the location that is near the user
+2.	GoogleMaps API ‚Äì This will be used to show the location that is near the user
 
 
 Rough BreakDown of Tasks:
 
-9/30/2017 ñ Saturday - Complete Project Proposal
-10/3/2017 ñ Tuesday ñ Pseudo Code Javascript
-10/5/2017 ñ Thrusday ñ HardCore Development (HTML & CSS should be up)
-10/7/2017 ñ Saturday ñ Hard Core development ñ HTML should be done. Javascript intense
-10/10/2017 ñ Tuesday ñ HardCore Development ñ Javascript
-10/12/2017 ñ Thursday ñ Hardcore development and presentation prep
-10/14/2017 ñ Saturday ñ Presentation!
+9/30/2017 ‚Äì Saturday - Complete Project Proposal
+10/3/2017 ‚Äì Tuesday ‚Äì Pseudo Code Javascript
+10/5/2017 ‚Äì Thrusday ‚Äì HardCore Development (HTML & CSS should be up)
+10/7/2017 ‚Äì Saturday ‚Äì Hard Core development ‚Äì HTML should be done. Javascript intense
+10/10/2017 ‚Äì Tuesday ‚Äì HardCore Development ‚Äì Javascript
+10/12/2017 ‚Äì Thursday ‚Äì Hardcore development and presentation prep
+10/14/2017 ‚Äì Saturday ‚Äì Presentation!
 
 
 AAA
